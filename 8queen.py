@@ -52,7 +52,7 @@ class NQueen:
             self.distinct.add(tuple(distinct_solution))
 
 
-def prity_print(solutions):
+def pretty_print(solutions):
     for i, solution in enumerate(solutions, start=1):
         print(f'solution #{i}')
         for x, _ in solution:
